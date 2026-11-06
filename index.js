@@ -15005,7 +15005,7 @@ function Uc(e) {
     dt(!1)
 }
 function E_(e) {
-    let {basename: t="/", children: n=null, location: s, navigationType: i=is.Pop, navigator: l, static: c=!1, future: u} = e;
+    let {basename: t=(window.__APP_BASE__||"/"), children: n=null, location: s, navigationType: i=is.Pop, navigator: l, static: c=!1, future: u} = e;
     Ga() && dt(!1);
     let f = t.replace(/^\/*/, "/")
       , h = x.useMemo( () => ({
